@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Dzee97/website-meike
   branch: main
+  base_url: https://decap-oauth.df-zee.workers.dev
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
