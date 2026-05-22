@@ -1,0 +1,9 @@
+---
+const { title, subtitle, description } = Astro.props;
+---
+
+<article>
+  <h3>{title}</h3>
+  {subtitle && <p><strong>{subtitle}</strong></p>}
+  {description && <p>{description}</p>}
+</article>

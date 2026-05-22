@@ -1,0 +1,18 @@
+---
+import "../styles/global.css";
+
+const { title = "Personal Website", description = "Personal career website" } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <slot />
+  </body>
+</html>
